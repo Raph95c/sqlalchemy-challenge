@@ -11,7 +11,7 @@ Select only the "date" and "prcp" values.
 Load the query results into a Pandas DataFrame, and set the index to the "date" column.
 Sort the DataFrame values by "date".
 Plot the results by using the DataFrame plot method, as the following image shows:
-/Users/raphoun/Documents/GitHub/sqlalchemy-challenge/Image/precipitation_bar_graph.png
+![precipitation_bar_graph](https://user-images.githubusercontent.com/115199874/208237192-8a285a87-a884-4fc3-852b-a2b894e38119.png)
 
 # Station Analysis
 Design a query to calculate the total number of stations in the dataset.
@@ -23,7 +23,7 @@ Design a query to get the previous 12 months of temperature observation (TOBS) d
 Filter by the station that has the greatest number of observations.
 Query the previous 12 months of TOBS data for that station.
 Plot the results as a histogram with bins=12, as the following image shows:
-/Users/raphoun/Documents/GitHub/sqlalchemy-challenge/Image/Temprature_hist.png
+![Temperature_hist](https://user-images.githubusercontent.com/115199874/208237204-613f2dbd-5245-4a65-92d1-47c226f6901b.png)
 
 # Part 2: Design Your Climate App
 In this part, we design a Flask API based on the previous queries, we use Flask to create the following routes:
